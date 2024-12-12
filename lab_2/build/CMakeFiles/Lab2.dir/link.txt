@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Lab2.dir/main.cpp.o CMakeFiles/Lab2.dir/unit.cpp.o CMakeFiles/Lab2.dir/Decimal.cpp.o -o Lab2  /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread
