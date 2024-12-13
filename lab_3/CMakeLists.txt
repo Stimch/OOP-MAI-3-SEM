@@ -7,9 +7,9 @@ set(CMAKE_CXX_STANDARD 11)
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 
-add_executable(Lab3 unit.cpp Rombe.cpp Pentagon.cpp Hexagon.cpp)
+add_executable(Lab3 unit.cpp Rombe.cpp Pentagon.cpp Hexagon.cpp Figure.cpp)
 
 # Линковать с Google Test
 target_link_libraries(Lab3 ${GTEST_LIBRARIES} pthread)
 
-add_executable(main main.cpp Rombe.cpp Pentagon.cpp Hexagon.cpp)
+add_executable(main main.cpp Rombe.cpp Pentagon.cpp Hexagon.cpp Figure.cpp)

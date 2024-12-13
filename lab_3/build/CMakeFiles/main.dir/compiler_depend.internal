@@ -8,9 +8,15 @@ CMakeFiles/main.dir/Hexagon.cpp.o
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
+ /usr/include/c++/14/backward/auto_ptr.h
  /usr/include/c++/14/backward/binders.h
+ /usr/include/c++/14/bit
+ /usr/include/c++/14/bits/align.h
  /usr/include/c++/14/bits/alloc_traits.h
+ /usr/include/c++/14/bits/allocated_ptr.h
  /usr/include/c++/14/bits/allocator.h
+ /usr/include/c++/14/bits/atomic_base.h
+ /usr/include/c++/14/bits/atomic_lockfree_defines.h
  /usr/include/c++/14/bits/basic_ios.h
  /usr/include/c++/14/bits/basic_ios.tcc
  /usr/include/c++/14/bits/basic_string.h
@@ -47,18 +53,29 @@ CMakeFiles/main.dir/Hexagon.cpp.o
  /usr/include/c++/14/bits/range_access.h
  /usr/include/c++/14/bits/refwrap.h
  /usr/include/c++/14/bits/requires_hosted.h
+ /usr/include/c++/14/bits/shared_ptr.h
+ /usr/include/c++/14/bits/shared_ptr_atomic.h
+ /usr/include/c++/14/bits/shared_ptr_base.h
  /usr/include/c++/14/bits/std_abs.h
  /usr/include/c++/14/bits/stl_algobase.h
+ /usr/include/c++/14/bits/stl_bvector.h
  /usr/include/c++/14/bits/stl_construct.h
  /usr/include/c++/14/bits/stl_function.h
  /usr/include/c++/14/bits/stl_iterator.h
  /usr/include/c++/14/bits/stl_iterator_base_funcs.h
  /usr/include/c++/14/bits/stl_iterator_base_types.h
  /usr/include/c++/14/bits/stl_pair.h
+ /usr/include/c++/14/bits/stl_raw_storage_iter.h
+ /usr/include/c++/14/bits/stl_tempbuf.h
+ /usr/include/c++/14/bits/stl_uninitialized.h
+ /usr/include/c++/14/bits/stl_vector.h
  /usr/include/c++/14/bits/streambuf.tcc
  /usr/include/c++/14/bits/streambuf_iterator.h
  /usr/include/c++/14/bits/stringfwd.h
+ /usr/include/c++/14/bits/unique_ptr.h
+ /usr/include/c++/14/bits/uses_allocator.h
  /usr/include/c++/14/bits/utility.h
+ /usr/include/c++/14/bits/vector.tcc
  /usr/include/c++/14/bits/version.h
  /usr/include/c++/14/cctype
  /usr/include/c++/14/cerrno
@@ -71,8 +88,10 @@ CMakeFiles/main.dir/Hexagon.cpp.o
  /usr/include/c++/14/debug/assertions.h
  /usr/include/c++/14/debug/debug.h
  /usr/include/c++/14/exception
+ /usr/include/c++/14/ext/aligned_buffer.h
  /usr/include/c++/14/ext/alloc_traits.h
  /usr/include/c++/14/ext/atomicity.h
+ /usr/include/c++/14/ext/concurrence.h
  /usr/include/c++/14/ext/numeric_traits.h
  /usr/include/c++/14/ext/string_conversions.h
  /usr/include/c++/14/ext/type_traits.h
@@ -81,14 +100,17 @@ CMakeFiles/main.dir/Hexagon.cpp.o
  /usr/include/c++/14/iosfwd
  /usr/include/c++/14/iostream
  /usr/include/c++/14/istream
+ /usr/include/c++/14/memory
  /usr/include/c++/14/new
  /usr/include/c++/14/ostream
  /usr/include/c++/14/stdexcept
  /usr/include/c++/14/streambuf
  /usr/include/c++/14/string
  /usr/include/c++/14/system_error
+ /usr/include/c++/14/tuple
  /usr/include/c++/14/type_traits
  /usr/include/c++/14/typeinfo
+ /usr/include/c++/14/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -100,6 +122,7 @@ CMakeFiles/main.dir/Hexagon.cpp.o
  /usr/include/pthread.h
  /usr/include/sched.h
  /usr/include/stdc-predef.h
+ /usr/include/stdint.h
  /usr/include/stdio.h
  /usr/include/stdlib.h
  /usr/include/time.h
@@ -133,6 +156,8 @@ CMakeFiles/main.dir/Hexagon.cpp.o
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/setjmp.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
@@ -193,6 +218,7 @@ CMakeFiles/main.dir/Hexagon.cpp.o
  /usr/include/x86_64-linux-gnu/sys/types.h
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
 
 CMakeFiles/main.dir/Pentagon.cpp.o
  /home/stimch/study/OOP-MAI-3-SEM/lab_3/Pentagon.cpp
@@ -201,9 +227,15 @@ CMakeFiles/main.dir/Pentagon.cpp.o
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
+ /usr/include/c++/14/backward/auto_ptr.h
  /usr/include/c++/14/backward/binders.h
+ /usr/include/c++/14/bit
+ /usr/include/c++/14/bits/align.h
  /usr/include/c++/14/bits/alloc_traits.h
+ /usr/include/c++/14/bits/allocated_ptr.h
  /usr/include/c++/14/bits/allocator.h
+ /usr/include/c++/14/bits/atomic_base.h
+ /usr/include/c++/14/bits/atomic_lockfree_defines.h
  /usr/include/c++/14/bits/basic_ios.h
  /usr/include/c++/14/bits/basic_ios.tcc
  /usr/include/c++/14/bits/basic_string.h
@@ -240,18 +272,29 @@ CMakeFiles/main.dir/Pentagon.cpp.o
  /usr/include/c++/14/bits/range_access.h
  /usr/include/c++/14/bits/refwrap.h
  /usr/include/c++/14/bits/requires_hosted.h
+ /usr/include/c++/14/bits/shared_ptr.h
+ /usr/include/c++/14/bits/shared_ptr_atomic.h
+ /usr/include/c++/14/bits/shared_ptr_base.h
  /usr/include/c++/14/bits/std_abs.h
  /usr/include/c++/14/bits/stl_algobase.h
+ /usr/include/c++/14/bits/stl_bvector.h
  /usr/include/c++/14/bits/stl_construct.h
  /usr/include/c++/14/bits/stl_function.h
  /usr/include/c++/14/bits/stl_iterator.h
  /usr/include/c++/14/bits/stl_iterator_base_funcs.h
  /usr/include/c++/14/bits/stl_iterator_base_types.h
  /usr/include/c++/14/bits/stl_pair.h
+ /usr/include/c++/14/bits/stl_raw_storage_iter.h
+ /usr/include/c++/14/bits/stl_tempbuf.h
+ /usr/include/c++/14/bits/stl_uninitialized.h
+ /usr/include/c++/14/bits/stl_vector.h
  /usr/include/c++/14/bits/streambuf.tcc
  /usr/include/c++/14/bits/streambuf_iterator.h
  /usr/include/c++/14/bits/stringfwd.h
+ /usr/include/c++/14/bits/unique_ptr.h
+ /usr/include/c++/14/bits/uses_allocator.h
  /usr/include/c++/14/bits/utility.h
+ /usr/include/c++/14/bits/vector.tcc
  /usr/include/c++/14/bits/version.h
  /usr/include/c++/14/cctype
  /usr/include/c++/14/cerrno
@@ -264,8 +307,10 @@ CMakeFiles/main.dir/Pentagon.cpp.o
  /usr/include/c++/14/debug/assertions.h
  /usr/include/c++/14/debug/debug.h
  /usr/include/c++/14/exception
+ /usr/include/c++/14/ext/aligned_buffer.h
  /usr/include/c++/14/ext/alloc_traits.h
  /usr/include/c++/14/ext/atomicity.h
+ /usr/include/c++/14/ext/concurrence.h
  /usr/include/c++/14/ext/numeric_traits.h
  /usr/include/c++/14/ext/string_conversions.h
  /usr/include/c++/14/ext/type_traits.h
@@ -274,14 +319,17 @@ CMakeFiles/main.dir/Pentagon.cpp.o
  /usr/include/c++/14/iosfwd
  /usr/include/c++/14/iostream
  /usr/include/c++/14/istream
+ /usr/include/c++/14/memory
  /usr/include/c++/14/new
  /usr/include/c++/14/ostream
  /usr/include/c++/14/stdexcept
  /usr/include/c++/14/streambuf
  /usr/include/c++/14/string
  /usr/include/c++/14/system_error
+ /usr/include/c++/14/tuple
  /usr/include/c++/14/type_traits
  /usr/include/c++/14/typeinfo
+ /usr/include/c++/14/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -293,6 +341,7 @@ CMakeFiles/main.dir/Pentagon.cpp.o
  /usr/include/pthread.h
  /usr/include/sched.h
  /usr/include/stdc-predef.h
+ /usr/include/stdint.h
  /usr/include/stdio.h
  /usr/include/stdlib.h
  /usr/include/time.h
@@ -326,6 +375,8 @@ CMakeFiles/main.dir/Pentagon.cpp.o
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/setjmp.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
@@ -386,6 +437,7 @@ CMakeFiles/main.dir/Pentagon.cpp.o
  /usr/include/x86_64-linux-gnu/sys/types.h
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
 
 CMakeFiles/main.dir/Rombe.cpp.o
  /home/stimch/study/OOP-MAI-3-SEM/lab_3/Rombe.cpp
@@ -394,9 +446,15 @@ CMakeFiles/main.dir/Rombe.cpp.o
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
+ /usr/include/c++/14/backward/auto_ptr.h
  /usr/include/c++/14/backward/binders.h
+ /usr/include/c++/14/bit
+ /usr/include/c++/14/bits/align.h
  /usr/include/c++/14/bits/alloc_traits.h
+ /usr/include/c++/14/bits/allocated_ptr.h
  /usr/include/c++/14/bits/allocator.h
+ /usr/include/c++/14/bits/atomic_base.h
+ /usr/include/c++/14/bits/atomic_lockfree_defines.h
  /usr/include/c++/14/bits/basic_ios.h
  /usr/include/c++/14/bits/basic_ios.tcc
  /usr/include/c++/14/bits/basic_string.h
@@ -433,18 +491,29 @@ CMakeFiles/main.dir/Rombe.cpp.o
  /usr/include/c++/14/bits/range_access.h
  /usr/include/c++/14/bits/refwrap.h
  /usr/include/c++/14/bits/requires_hosted.h
+ /usr/include/c++/14/bits/shared_ptr.h
+ /usr/include/c++/14/bits/shared_ptr_atomic.h
+ /usr/include/c++/14/bits/shared_ptr_base.h
  /usr/include/c++/14/bits/std_abs.h
  /usr/include/c++/14/bits/stl_algobase.h
+ /usr/include/c++/14/bits/stl_bvector.h
  /usr/include/c++/14/bits/stl_construct.h
  /usr/include/c++/14/bits/stl_function.h
  /usr/include/c++/14/bits/stl_iterator.h
  /usr/include/c++/14/bits/stl_iterator_base_funcs.h
  /usr/include/c++/14/bits/stl_iterator_base_types.h
  /usr/include/c++/14/bits/stl_pair.h
+ /usr/include/c++/14/bits/stl_raw_storage_iter.h
+ /usr/include/c++/14/bits/stl_tempbuf.h
+ /usr/include/c++/14/bits/stl_uninitialized.h
+ /usr/include/c++/14/bits/stl_vector.h
  /usr/include/c++/14/bits/streambuf.tcc
  /usr/include/c++/14/bits/streambuf_iterator.h
  /usr/include/c++/14/bits/stringfwd.h
+ /usr/include/c++/14/bits/unique_ptr.h
+ /usr/include/c++/14/bits/uses_allocator.h
  /usr/include/c++/14/bits/utility.h
+ /usr/include/c++/14/bits/vector.tcc
  /usr/include/c++/14/bits/version.h
  /usr/include/c++/14/cctype
  /usr/include/c++/14/cerrno
@@ -457,8 +526,10 @@ CMakeFiles/main.dir/Rombe.cpp.o
  /usr/include/c++/14/debug/assertions.h
  /usr/include/c++/14/debug/debug.h
  /usr/include/c++/14/exception
+ /usr/include/c++/14/ext/aligned_buffer.h
  /usr/include/c++/14/ext/alloc_traits.h
  /usr/include/c++/14/ext/atomicity.h
+ /usr/include/c++/14/ext/concurrence.h
  /usr/include/c++/14/ext/numeric_traits.h
  /usr/include/c++/14/ext/string_conversions.h
  /usr/include/c++/14/ext/type_traits.h
@@ -467,14 +538,17 @@ CMakeFiles/main.dir/Rombe.cpp.o
  /usr/include/c++/14/iosfwd
  /usr/include/c++/14/iostream
  /usr/include/c++/14/istream
+ /usr/include/c++/14/memory
  /usr/include/c++/14/new
  /usr/include/c++/14/ostream
  /usr/include/c++/14/stdexcept
  /usr/include/c++/14/streambuf
  /usr/include/c++/14/string
  /usr/include/c++/14/system_error
+ /usr/include/c++/14/tuple
  /usr/include/c++/14/type_traits
  /usr/include/c++/14/typeinfo
+ /usr/include/c++/14/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -486,6 +560,7 @@ CMakeFiles/main.dir/Rombe.cpp.o
  /usr/include/pthread.h
  /usr/include/sched.h
  /usr/include/stdc-predef.h
+ /usr/include/stdint.h
  /usr/include/stdio.h
  /usr/include/stdlib.h
  /usr/include/time.h
@@ -519,6 +594,8 @@ CMakeFiles/main.dir/Rombe.cpp.o
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/setjmp.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
@@ -579,6 +656,7 @@ CMakeFiles/main.dir/Rombe.cpp.o
  /usr/include/x86_64-linux-gnu/sys/types.h
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
 
 CMakeFiles/main.dir/main.cpp.o
  /home/stimch/study/OOP-MAI-3-SEM/lab_3/main.cpp
@@ -589,9 +667,15 @@ CMakeFiles/main.dir/main.cpp.o
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
+ /usr/include/c++/14/backward/auto_ptr.h
  /usr/include/c++/14/backward/binders.h
+ /usr/include/c++/14/bit
+ /usr/include/c++/14/bits/align.h
  /usr/include/c++/14/bits/alloc_traits.h
+ /usr/include/c++/14/bits/allocated_ptr.h
  /usr/include/c++/14/bits/allocator.h
+ /usr/include/c++/14/bits/atomic_base.h
+ /usr/include/c++/14/bits/atomic_lockfree_defines.h
  /usr/include/c++/14/bits/basic_ios.h
  /usr/include/c++/14/bits/basic_ios.tcc
  /usr/include/c++/14/bits/basic_string.h
@@ -628,18 +712,29 @@ CMakeFiles/main.dir/main.cpp.o
  /usr/include/c++/14/bits/range_access.h
  /usr/include/c++/14/bits/refwrap.h
  /usr/include/c++/14/bits/requires_hosted.h
+ /usr/include/c++/14/bits/shared_ptr.h
+ /usr/include/c++/14/bits/shared_ptr_atomic.h
+ /usr/include/c++/14/bits/shared_ptr_base.h
  /usr/include/c++/14/bits/std_abs.h
  /usr/include/c++/14/bits/stl_algobase.h
+ /usr/include/c++/14/bits/stl_bvector.h
  /usr/include/c++/14/bits/stl_construct.h
  /usr/include/c++/14/bits/stl_function.h
  /usr/include/c++/14/bits/stl_iterator.h
  /usr/include/c++/14/bits/stl_iterator_base_funcs.h
  /usr/include/c++/14/bits/stl_iterator_base_types.h
  /usr/include/c++/14/bits/stl_pair.h
+ /usr/include/c++/14/bits/stl_raw_storage_iter.h
+ /usr/include/c++/14/bits/stl_tempbuf.h
+ /usr/include/c++/14/bits/stl_uninitialized.h
+ /usr/include/c++/14/bits/stl_vector.h
  /usr/include/c++/14/bits/streambuf.tcc
  /usr/include/c++/14/bits/streambuf_iterator.h
  /usr/include/c++/14/bits/stringfwd.h
+ /usr/include/c++/14/bits/unique_ptr.h
+ /usr/include/c++/14/bits/uses_allocator.h
  /usr/include/c++/14/bits/utility.h
+ /usr/include/c++/14/bits/vector.tcc
  /usr/include/c++/14/bits/version.h
  /usr/include/c++/14/cctype
  /usr/include/c++/14/cerrno
@@ -652,8 +747,10 @@ CMakeFiles/main.dir/main.cpp.o
  /usr/include/c++/14/debug/assertions.h
  /usr/include/c++/14/debug/debug.h
  /usr/include/c++/14/exception
+ /usr/include/c++/14/ext/aligned_buffer.h
  /usr/include/c++/14/ext/alloc_traits.h
  /usr/include/c++/14/ext/atomicity.h
+ /usr/include/c++/14/ext/concurrence.h
  /usr/include/c++/14/ext/numeric_traits.h
  /usr/include/c++/14/ext/string_conversions.h
  /usr/include/c++/14/ext/type_traits.h
@@ -662,14 +759,17 @@ CMakeFiles/main.dir/main.cpp.o
  /usr/include/c++/14/iosfwd
  /usr/include/c++/14/iostream
  /usr/include/c++/14/istream
+ /usr/include/c++/14/memory
  /usr/include/c++/14/new
  /usr/include/c++/14/ostream
  /usr/include/c++/14/stdexcept
  /usr/include/c++/14/streambuf
  /usr/include/c++/14/string
  /usr/include/c++/14/system_error
+ /usr/include/c++/14/tuple
  /usr/include/c++/14/type_traits
  /usr/include/c++/14/typeinfo
+ /usr/include/c++/14/vector
  /usr/include/ctype.h
  /usr/include/endian.h
  /usr/include/errno.h
@@ -681,6 +781,7 @@ CMakeFiles/main.dir/main.cpp.o
  /usr/include/pthread.h
  /usr/include/sched.h
  /usr/include/stdc-predef.h
+ /usr/include/stdint.h
  /usr/include/stdio.h
  /usr/include/stdlib.h
  /usr/include/time.h
@@ -714,6 +815,8 @@ CMakeFiles/main.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/bits/select.h
  /usr/include/x86_64-linux-gnu/bits/setjmp.h
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h
@@ -774,4 +877,5 @@ CMakeFiles/main.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/sys/types.h
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdarg.h
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stddef.h
+ /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h
 

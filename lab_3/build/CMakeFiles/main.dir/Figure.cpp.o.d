@@ -1,7 +1,6 @@
-CMakeFiles/main.dir/Hexagon.cpp.o: \
- /home/stimch/study/OOP-MAI-3-SEM/lab_3/Hexagon.cpp \
+CMakeFiles/main.dir/Figure.cpp.o: \
+ /home/stimch/study/OOP-MAI-3-SEM/lab_3/Figure.cpp \
  /usr/include/stdc-predef.h \
- /home/stimch/study/OOP-MAI-3-SEM/lab_3/Hexagon.h \
  /home/stimch/study/OOP-MAI-3-SEM/lab_3/Figure.h \
  /usr/include/c++/14/iostream /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
@@ -168,7 +167,8 @@ CMakeFiles/main.dir/Hexagon.cpp.o: \
  /usr/include/c++/14/bits/shared_ptr_atomic.h \
  /usr/include/c++/14/bits/atomic_base.h \
  /usr/include/c++/14/bits/atomic_lockfree_defines.h \
- /usr/include/c++/14/backward/auto_ptr.h /usr/include/c++/14/cmath \
+ /usr/include/c++/14/backward/auto_ptr.h \
+ /home/stimch/study/OOP-MAI-3-SEM/lab_3/Rombe.h /usr/include/c++/14/cmath \
  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -177,4 +177,6 @@ CMakeFiles/main.dir/Hexagon.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /home/stimch/study/OOP-MAI-3-SEM/lab_3/Pentagon.h \
+ /home/stimch/study/OOP-MAI-3-SEM/lab_3/Hexagon.h

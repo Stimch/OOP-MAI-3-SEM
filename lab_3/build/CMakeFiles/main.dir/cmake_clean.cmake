@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/Figure.cpp.o"
+  "CMakeFiles/main.dir/Figure.cpp.o.d"
   "CMakeFiles/main.dir/Hexagon.cpp.o"
   "CMakeFiles/main.dir/Hexagon.cpp.o.d"
   "CMakeFiles/main.dir/Pentagon.cpp.o"

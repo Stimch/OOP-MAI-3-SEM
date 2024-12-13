@@ -142,6 +142,33 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+Figure.o: Figure.cpp.o
+.PHONY : Figure.o
+
+# target to build an object file
+Figure.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/Figure.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Figure.cpp.o
+.PHONY : Figure.cpp.o
+
+Figure.i: Figure.cpp.i
+.PHONY : Figure.i
+
+# target to preprocess a source file
+Figure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/Figure.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Figure.cpp.i
+.PHONY : Figure.cpp.i
+
+Figure.s: Figure.cpp.s
+.PHONY : Figure.s
+
+# target to generate assembly for a file
+Figure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab3.dir/build.make CMakeFiles/Lab3.dir/Figure.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Figure.cpp.s
+.PHONY : Figure.cpp.s
+
 Hexagon.o: Hexagon.cpp.o
 .PHONY : Hexagon.o
 
@@ -281,6 +308,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Lab3"
 	@echo "... main"
+	@echo "... Figure.o"
+	@echo "... Figure.i"
+	@echo "... Figure.s"
 	@echo "... Hexagon.o"
 	@echo "... Hexagon.i"
 	@echo "... Hexagon.s"

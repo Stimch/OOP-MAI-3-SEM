@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/stimch/study/OOP-MAI-3-SEM/lab_3/Figure.cpp" "CMakeFiles/Lab3.dir/Figure.cpp.o" "gcc" "CMakeFiles/Lab3.dir/Figure.cpp.o.d"
   "/home/stimch/study/OOP-MAI-3-SEM/lab_3/Hexagon.cpp" "CMakeFiles/Lab3.dir/Hexagon.cpp.o" "gcc" "CMakeFiles/Lab3.dir/Hexagon.cpp.o.d"
   "/home/stimch/study/OOP-MAI-3-SEM/lab_3/Pentagon.cpp" "CMakeFiles/Lab3.dir/Pentagon.cpp.o" "gcc" "CMakeFiles/Lab3.dir/Pentagon.cpp.o.d"
   "/home/stimch/study/OOP-MAI-3-SEM/lab_3/Rombe.cpp" "CMakeFiles/Lab3.dir/Rombe.cpp.o" "gcc" "CMakeFiles/Lab3.dir/Rombe.cpp.o.d"
