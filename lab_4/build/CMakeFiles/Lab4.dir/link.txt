@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Lab4.dir/unit.cpp.o -o Lab4  /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread
