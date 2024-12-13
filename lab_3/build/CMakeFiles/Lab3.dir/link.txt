@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Lab3.dir/unit.cpp.o CMakeFiles/Lab3.dir/Rombe.cpp.o CMakeFiles/Lab3.dir/Pentagon.cpp.o CMakeFiles/Lab3.dir/Hexagon.cpp.o -o Lab3  /usr/lib/x86_64-linux-gnu/libgtest.a -lpthread

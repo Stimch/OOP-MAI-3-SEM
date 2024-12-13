@@ -1,0 +1,4 @@
+/home/stimch/study/OOP-MAI-3-SEM/lab_3/build/CMakeFiles/Lab3.dir
+/home/stimch/study/OOP-MAI-3-SEM/lab_3/build/CMakeFiles/main.dir
+/home/stimch/study/OOP-MAI-3-SEM/lab_3/build/CMakeFiles/edit_cache.dir
+/home/stimch/study/OOP-MAI-3-SEM/lab_3/build/CMakeFiles/rebuild_cache.dir

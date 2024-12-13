@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/Rombe.cpp.o CMakeFiles/main.dir/Pentagon.cpp.o CMakeFiles/main.dir/Hexagon.cpp.o -o main
